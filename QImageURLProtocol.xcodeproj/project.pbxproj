@@ -22,6 +22,7 @@
 		493EBF7119903BDA004C348A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493EBF5019903BDA004C348A /* UIKit.framework */; };
 		493EBF7919903BDA004C348A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 493EBF7719903BDA004C348A /* InfoPlist.strings */; };
 		493EBF7B19903BDA004C348A /* QImageURLProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 493EBF7A19903BDA004C348A /* QImageURLProtocolTests.m */; };
+		493EBF8619903C0F004C348A /* QImageURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 493EBF8519903C0F004C348A /* QImageURLProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		493EBF7619903BDA004C348A /* QImageURLProtocolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QImageURLProtocolTests-Info.plist"; sourceTree = "<group>"; };
 		493EBF7819903BDA004C348A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		493EBF7A19903BDA004C348A /* QImageURLProtocolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QImageURLProtocolTests.m; sourceTree = "<group>"; };
+		493EBF8419903C0F004C348A /* QImageURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QImageURLProtocol.h; sourceTree = SOURCE_ROOT; };
+		493EBF8519903C0F004C348A /* QImageURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QImageURLProtocol.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				493EBF5B19903BDA004C348A /* QImageURLProtocolTestAppDelegate.h */,
+				493EBF8419903C0F004C348A /* QImageURLProtocol.h */,
+				493EBF8519903C0F004C348A /* QImageURLProtocol.m */,
 				493EBF5C19903BDA004C348A /* QImageURLProtocolTestAppDelegate.m */,
 				493EBF5E19903BDA004C348A /* Main_iPhone.storyboard */,
 				493EBF6119903BDA004C348A /* Main_iPad.storyboard */,
@@ -257,6 +262,7 @@
 				493EBF5D19903BDA004C348A /* QImageURLProtocolTestAppDelegate.m in Sources */,
 				493EBF6619903BDA004C348A /* QImageURLProtocolTestViewController.m in Sources */,
 				493EBF5919903BDA004C348A /* main.m in Sources */,
+				493EBF8619903C0F004C348A /* QImageURLProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
